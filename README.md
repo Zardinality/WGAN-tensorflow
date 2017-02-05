@@ -1,6 +1,22 @@
 # Wasserstein GAN
 
-This is a tensorflow implementation of WGAN, only in DCGAN fashion, on mnist and SVHN.
+This is a tensorflow implementation of WGAN on mnist and SVHN, only in DCGAN fashion.
+
+### Requirement
+
+tensorflow==0.12.0+
+
+numpy
+
+matplotlib
+
+cv2
+
+### Usage
+
+Train: Use WGAN.ipynb, set the parameters in the second cell and choose the dataset you want to run on. You can use tensorboard to visualize the training. 
+
+Generation : Use generate_from_ckpt.ipynb, set  `ckpt_dir` in the second cell. Don't forget to change the dataset type accordingly.
 
 ### Note
 
