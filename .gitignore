@@ -93,3 +93,4 @@ ENV/
 .vscode
 
 *.json
+.DS_Store
