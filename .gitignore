@@ -94,3 +94,6 @@ ENV/
 
 *.json
 .DS_Store
+MNIST_data/
+ckpt_wgan/
+log_wgan/
