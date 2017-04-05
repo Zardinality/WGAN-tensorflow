@@ -4,7 +4,7 @@ This is a tensorflow implementation of WGAN on mnist and SVHN.
 
 ## Requirement
 
-tensorflow==0.12.0+
+tensorflow==1.0.0+
 
 numpy
 
@@ -30,4 +30,4 @@ Generation : Use generate_from_ckpt.ipynb, set  `ckpt_dir` in the second cell. D
 
 5. Please set your device you want to run on in the code, search `tf.device` and change accordingly. It runs on gpu:0 by default.
 
-   ​
+6. Inproved-WGAN is added, but somehow the gradient norm is close to 1, so the square-gradient normalizer doesn't work. Couldn't figure out why.   ​
